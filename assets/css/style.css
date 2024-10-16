@@ -698,7 +698,11 @@ body {
   font-size: var(--fs-6);
 }
 
-
+.gallery{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
 
 
 
@@ -712,7 +716,7 @@ body {
 
 @media (min-width: 575px) {
   .prince {
-    color: white;
+    color: white !important;
     font-size: 15px;
     font-weight: bold;
   }

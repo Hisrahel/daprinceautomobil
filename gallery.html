@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Photo Gallery</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+      integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/gallery.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/baguetteBox.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <a href="index.html">
+          <p class="prince">DaPrinceAutos</p>
+        </a>
+        <nav class="navbar" data-navbar>
+          <ul class="navbar-list">
+            <li>
+              <a href="index.html" class="navbar-link">Home</a>
+            </li>
+
+            <li>
+              <a href="index.html#about" class="navbar-link">About</a>
+            </li>
+
+            <li>
+              <a href="index.html#service" class="navbar-link">Services</a>
+            </li>
+
+            <li>
+              <a href="index.html#contact" class="navbar-link">Contact</a>
+            </li>
+          </ul>
+        </nav>
+        <button
+          class="nav-toggle-btn"
+          aria-label="toggle menu"
+          data-nav-toggler
+        >
+          <span class="nav-toggle-icon icon-1"></span>
+          <span class="nav-toggle-icon icon-2"></span>
+          <span class="nav-toggle-icon icon-3"></span>
+        </button>
+      </div>
+    </header>
+
+    <!-- 
+      - #HERO
+    -->
+
+    <section
+      class="hero has-bg-image"
+      aria-label="home"
+      style="background-image: url('./assets/images/hero-bg.jpg')"
+    >
+      <div class="container">
+        <div class="hero-content">
+          <p class="section-subtitle :dark">Get the best rides from us!</p>
+
+          <h1 class="h1 section-title">
+            Da Prince Automobil LLC picture gallery
+          </h1>
+        </div>
+
+        <figure class="hero-banner" style="--width: 1228; --height: 789">
+          <img
+            src="./assets/images/hero-banner.png"
+            width="1228"
+            height="789"
+            alt="red motor vehicle"
+            class="move-anim"
+          />
+        </figure>
+      </div>
+    </section>
+
+    <h2 class="latest" id="top">Latest Car Sales</h2>
+
+    <main>
+      <div class="gallery-container gallery" id="photos">
+        <ul id="container">
+          <li>
+            <a href="photos/1.jpg">
+              <img src="photos/thumbnails/1.jpg" alt="" class="gallery__item" />
+            </a>
+          </li>
+          <li>
+            <a href="photos/2.jpg">
+              <img src="photos/thumbnails/2.jpg" alt="" class="gallery__item" />
+            </a>
+          </li>
+          <li>
+            <a href="photos/3.jpg">
+              <img src="photos/thumbnails/3.jpg" alt="" class="gallery__item" />
+            </a>
+          </li>
+          <li>
+            <a href="photos/4.jpg">
+              <img src="photos/thumbnails/4.jpg" alt="" class="gallery__item" />
+            </a>
+          </li>
+          <li>
+            <a href="photos/5.jpg">
+              <img src="photos/thumbnails/5.jpg" alt="" class="gallery__item" />
+            </a>
+          </li>
+          <li>
+            <a href="photos/6.jpg">
+              <img src="photos/thumbnails/6.jpg" alt="" class="gallery__item" />
+            </a>
+          </li>
+          <li>
+            <a href="photos/7.jpg">
+              <img src="photos/thumbnails/7.jpg" alt="" class="gallery__item" />
+            </a>
+          </li>
+          <li>
+            <a href="photos/8.jpg">
+              <img src="photos/thumbnails/8.jpg" alt="" class="gallery__item" />
+            </a>
+          </li>
+          <li>
+            <a href="photos/9.jpg">
+              <img src="photos/thumbnails/9.jpg" alt="" class="gallery__item" />
+            </a>
+          </li>
+          <li>
+            <a href="photos/11.jpg">
+              <img
+                src="photos/thumbnails/11.jpg"
+                alt=""
+                class="gallery__item"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="photos/12.jpg">
+              <img
+                src="photos/thumbnails/12.jpg"
+                alt=""
+                class="gallery__item"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="photos/13.jpg">
+              <img
+                src="photos/thumbnails/13.jpg"
+                alt=""
+                class="gallery__item"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="photos/14.jpg">
+              <img
+                src="photos/thumbnails/14.jpg"
+                alt=""
+                class="gallery__item"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="photos/15.jpg">
+              <img
+                src="photos/thumbnails/15.jpg"
+                alt=""
+                class="gallery__item"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="photos/16.jpg">
+              <img
+                src="photos/thumbnails/16.jpg"
+                alt=""
+                class="gallery__item"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="photos/17.jpg">
+              <img
+                src="photos/thumbnails/17.jpg"
+                alt=""
+                class="gallery__item"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="photos/18.jpg">
+              <img
+                src="photos/thumbnails/18.jpg"
+                alt=""
+                class="gallery__item"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="photos/19.jpg">
+              <img
+                src="photos/thumbnails/19.jpg"
+                alt=""
+                class="gallery__item"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="photos/20.jpg">
+              <img
+                src="photos/thumbnails/20.jpg"
+                alt=""
+                class="gallery__item"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="photos/21.jpg">
+              <img
+                src="photos/thumbnails/21.jpg"
+                alt=""
+                class="gallery__item"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="photos/22.jpg">
+              <img
+                src="photos/thumbnails/22.jpg"
+                alt=""
+                class="gallery__item"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="photos/23.jpg">
+              <img
+                src="photos/thumbnails/23.jpg"
+                alt=""
+                class="gallery__item"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="photos/24.jpg">
+              <img
+                src="photos/thumbnails/24.jpg"
+                alt=""
+                class="gallery__item"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="photos/25.jpg">
+              <img
+                src="photos/thumbnails/25.jpg"
+                alt=""
+                class="gallery__item"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="photos/26.jpg">
+              <img
+                src="photos/thumbnails/26.jpg"
+                alt=""
+                class="gallery__item"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="photos/27.jpg">
+              <img
+                src="photos/thumbnails/27.jpg"
+                alt=""
+                class="gallery__item"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="photos/28.jpg">
+              <img
+                src="photos/thumbnails/28.jpg"
+                alt=""
+                class="gallery__item"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="photos/29.jpg">
+              <img
+                src="photos/thumbnails/29.jpg"
+                alt=""
+                class="gallery__item"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="photos/30.jpg">
+              <img
+                src="photos/thumbnails/30.jpg"
+                alt=""
+                class="gallery__item"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="photos/31.jpg">
+              <img
+                src="photos/thumbnails/31.jpg"
+                alt=""
+                class="gallery__item"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="photos/32.jpg">
+              <img
+                src="photos/thumbnails/32.jpg"
+                alt=""
+                class="gallery__item"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="photos/33.jpg">
+              <img
+                src="photos/thumbnails/33.jpg"
+                alt=""
+                class="gallery__item"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="photos/34.jpg">
+              <img
+                src="photos/thumbnails/34.jpg"
+                alt=""
+                class="gallery__item"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="photos/35.jpg">
+              <img
+                src="photos/thumbnails/35.jpg"
+                alt=""
+                class="gallery__item"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="photos/36.jpg">
+              <img
+                src="photos/thumbnails/36.jpg"
+                alt=""
+                class="gallery__item"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="photos/37.jpg">
+              <img
+                src="photos/thumbnails/37.jpg"
+                alt=""
+                class="gallery__item"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="photos/38.jpg">
+              <img
+                src="photos/thumbnails/38.jpg"
+                alt=""
+                class="gallery__item"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="photos/39.jpg">
+              <img
+                src="photos/thumbnails/39.jpg"
+                alt=""
+                class="gallery__item"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="photos/40.jpg">
+              <img
+                src="photos/thumbnails/40.jpg"
+                alt=""
+                class="gallery__item"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="photos/41.jpg">
+              <img
+                src="photos/thumbnails/41.jpg"
+                alt=""
+                class="gallery__item"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="photos/42.jpg">
+              <img
+                src="photos/thumbnails/42.jpg"
+                alt=""
+                class="gallery__item"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="photos/43.jpg">
+              <img
+                src="photos/thumbnails/43.jpg"
+                alt=""
+                class="gallery__item"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="photos/44.jpg">
+              <img
+                src="photos/thumbnails/44.jpg"
+                alt=""
+                class="gallery__item"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="photos/48.jpg">
+              <img
+                src="photos/thumbnails/48.jpg"
+                alt=""
+                class="gallery__item"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="photos/49.jpg">
+              <img
+                src="photos/thumbnails/49.jpg"
+                alt=""
+                class="gallery__item"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="photos/50.jpg">
+              <img
+                src="photos/thumbnails/50.jpg"
+                alt=""
+                class="gallery__item"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="photos/51.jpg">
+              <img
+                src="photos/thumbnails/51.jpg"
+                alt=""
+                class="gallery__item"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="photos/52.jpg">
+              <img
+                src="photos/thumbnails/52.jpg"
+                alt=""
+                class="gallery__item"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="photos/53.jpg">
+              <img
+                src="photos/thumbnails/53.jpg"
+                alt=""
+                class="gallery__item"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="photos/55.jpg">
+              <img
+                src="photos/thumbnails/55.jpg"
+                alt=""
+                class="gallery__item"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="photos/56.jpg">
+              <img
+                src="photos/thumbnails/56.jpg"
+                alt=""
+                class="gallery__item"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="photos/57.jpg">
+              <img
+                src="photos/thumbnails/57.jpg"
+                alt=""
+                class="gallery__item"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="photos/58.jpg">
+              <img
+                src="photos/thumbnails/58.jpg"
+                alt=""
+                class="gallery__item"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="photos/59.jpg">
+              <img
+                src="photos/thumbnails/59.jpg"
+                alt=""
+                class="gallery__item"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="photos/60.jpg">
+              <img
+                src="photos/thumbnails/60.jpg"
+                alt=""
+                class="gallery__item"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="photos/61.jpg">
+              <img
+                src="photos/thumbnails/61.jpg"
+                alt=""
+                class="gallery__item"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="photos/62.jpg">
+              <img
+                src="photos/thumbnails/62.jpg"
+                alt=""
+                class="gallery__item"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="photos/63.jpg">
+              <img
+                src="photos/thumbnails/63.jpg"
+                alt=""
+                class="gallery__item"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="photos/64.jpg">
+              <img
+                src="photos/thumbnails/64.jpg"
+                alt=""
+                class="gallery__item"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="photos/65.jpg">
+              <img
+                src="photos/thumbnails/65.jpg"
+                alt=""
+                class="gallery__item"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="photos/66.jpg">
+              <img
+                src="photos/thumbnails/66.jpg"
+                alt=""
+                class="gallery__item"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="photos/67.jpg">
+              <img
+                src="photos/thumbnails/67.jpg"
+                alt=""
+                class="gallery__item"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="photos/68.jpg">
+              <img
+                src="photos/thumbnails/68.jpg"
+                alt=""
+                class="gallery__item"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="photos/69.jpg">
+              <img
+                src="photos/thumbnails/69.jpg"
+                alt=""
+                class="gallery__item"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="photos/70.jpg">
+              <img
+                src="photos/thumbnails/70.jpg"
+                alt=""
+                class="gallery__item"
+              />
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="startdiv">
+        <a href="#top">
+          <button class="start">BACK TO START</button>
+        </a>
+      </div>
+    </main>
+
+    <script>
+      window.addEventListener("load", function () {
+        baguetteBox.run(".gallery", {
+          captions: true,
+          buttons: "auto",
+          fullScreen: false,
+          noScrollbars: false,
+          titleTag: true,
+          async: false,
+          preload: 2,
+          animation: "fadeIn",
+          onChange: null,
+        });
+      });
+    </script>
+    <script src="assets/js/baguetteBox.min.js" async></script>
+    <script src="assets/js/app.js"></script>
+  </body>
+</html>
